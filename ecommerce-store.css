@@ -129,7 +129,7 @@ a{text-decoration:none;color:inherit;}
   position:relative;overflow:hidden;
 }
 .hero-left{
-  background:var(--ink-2);
+  background-image: url("https://newcollection.ch/cdn/shop/files/IMG_2198.jpg?v=1756480516&width=1500");
   display:flex;flex-direction:column;justify-content:flex-end;
   padding:5rem 4rem;
   position:relative;overflow:hidden;
@@ -183,12 +183,16 @@ a{text-decoration:none;color:inherit;}
 }
 .hero-right .hero-img-placeholder{
   width:100%;height:100%;
-  background:linear-gradient(135deg,var(--cream-3) 0%,var(--cream-2) 40%,#ddd5c5 100%);
-  display:flex;align-items:center;justify-content:center;
+  background-image: url("https://media.istockphoto.com/id/1067956010/photo/carefree-pretty-autumn-cool-girls-on-city-street.jpg?s=612x612&w=0&k=20&c=tRnXMcLfND3Fc8C5V5MN-HFWsPekpAXtq03_tp7bLLw=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   position:relative;
 }
 .hero-right .hero-img-placeholder::before{
-  content:'AURUM';
   font-family:'Cormorant Garamond',serif;
   font-size:12rem;font-weight:300;letter-spacing:0.1em;
   color:rgba(26,23,20,0.05);
@@ -196,7 +200,9 @@ a{text-decoration:none;color:inherit;}
 }
 .hero-card{
   position:absolute;bottom:2.5rem;left:2.5rem;
-  background:rgba(247,244,239,0.92);backdrop-filter:blur(8px);
+  background: rgba(247,244,239,0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border:1px solid var(--cream-3);border-radius:var(--radius-lg);
   padding:1.2rem 1.5rem;box-shadow:var(--shadow-md);
   opacity:0;animation:fadeUp 0.8s 0.8s ease forwards;
