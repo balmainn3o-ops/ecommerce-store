@@ -73,39 +73,52 @@
   <div class="section-label"><span>Shop by Category</span></div>
   <div class="categories-grid">
     <div class="cat-card" onclick="filterProducts('clothing')">
-      <div class="cat-bg" style="background:linear-gradient(135deg,#e8dfd0,#d4c8b5);">👗</div>
-      <div class="cat-overlay">
+      <div class="cat-card clothing">
+        <div class="cat-bg"></div>
+        <div class="cat-overlay">
         <div class="cat-name">Clothing</div>
         <div class="cat-count">48 items</div>
       </div>
     </div>
+  </div>
+
     <div class="cat-card" onclick="filterProducts('accessories')">
-      <div class="cat-bg" style="background:linear-gradient(135deg,#d0d8e8,#b5c4d4);">👜</div>
-      <div class="cat-overlay">
-        <div class="cat-name">Accessories</div>
-        <div class="cat-count">32 items</div>
+     <div class="cat-card accessories">
+       <div class="cat-bg"></div>
+        <div class="cat-overlay">
+         <div class="cat-name">Accessories</div>
+          <div class="cat-count">32 items</div>
+       </div>
       </div>
     </div>
+
     <div class="cat-card" onclick="filterProducts('home')">
-      <div class="cat-bg" style="background:linear-gradient(135deg,#e8e0d0,#d4c8b5);">🏡</div>
-      <div class="cat-overlay">
-        <div class="cat-name">Home Living</div>
-        <div class="cat-count">24 items</div>
+      <div class="cat-card home">
+         <div class="cat-bg"></div>
+         <div class="cat-overlay">
+         <div class="cat-name">Home Living</div>
+         <div class="cat-count">24 items</div>
+       </div>
       </div>
     </div>
+
     <div class="cat-card" onclick="filterProducts('beauty')">
-      <div class="cat-bg" style="background:linear-gradient(135deg,#e8d0d8,#d4b5bf);">✨</div>
-      <div class="cat-overlay">
-        <div class="cat-name">Beauty</div>
-        <div class="cat-count">19 items</div>
+     <div class="cat-card beauty">
+  <div class="cat-bg"></div>
+  <div class="cat-overlay">
+    <div class="cat-name">Beauty</div>
+    <div class="cat-count">19 items</div>
+  </div>
       </div>
     </div>
+
     <div class="cat-card" onclick="filterProducts('all')">
-      <div class="cat-bg" style="background:linear-gradient(135deg,#d0e8d8,#b5d4be);">🌿</div>
-      <div class="cat-overlay">
-        <div class="cat-name">New In</div>
-        <div class="cat-count">12 items</div>
-      </div>
+    <div class="cat-card Arrivals">
+  <div class="cat-bg"></div>
+  <div class="cat-overlay">
+    <div class="cat-name">New Arrivals</div>
+    <div class="cat-count">14 items</div>
+  </div>
     </div>
   </div>
 </section>
@@ -163,7 +176,7 @@
 <!-- NEWSLETTER -->
 <div class="newsletter">
   <div class="section-label" style="justify-content:center;"><span>Stay Connected</span></div>
-  <h2>The <em>Aurum</em> Edit</h2>
+<h2>The <em>(Name)</em> Edit</h2>
   <p>New arrivals, exclusive offers, and style notes — delivered monthly. No noise, just the good stuff.</p>
   <div class="newsletter-form">
     <input type="email" placeholder="your@email.com" id="emailInput"/>

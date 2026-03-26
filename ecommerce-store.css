@@ -226,6 +226,38 @@ a{text-decoration:none;color:inherit;}
 .categories-grid{
   display:grid;grid-template-columns:repeat(5,1fr);gap:1rem;
 }
+
+.cat-bg {
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cat-card.clothing .cat-bg {
+  background-image: url("https://ih1.redbubble.net/image.4995640703.9473/ssrco,classic_tee,womens_02,101010:01c5ca27c6,front,product_square,x600.1.jpg");
+  background-size: cover;
+}
+
+.cat-card.accessories .cat-bg {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/collection-of-trendy-silk-elastic-band-scrunchies-royalty-free-image-1716234835.jpg?crop=0.667xw:1.00xh;0.278xw,0&resize=640:*");
+  background-size: cover;
+}
+
+.cat-card.home .cat-bg {
+  background-image: url("https://morataara.com/cdn/shop/articles/Wooden_Decor_Banner_Hor.jpg?v=1718368621");
+  background-size: cover;
+}
+
+
+.cat-card.beauty .cat-bg {
+  background-image: url("https://m.media-amazon.com/images/I/71g5ZdI6tfL._AC_UF1000,1000_QL80_.jpg");
+  background-size: cover;
+}
+.cat-card.Arrivals .cat-bg {
+  background-image: url("https://image-prod.iol.co.za/square/450/Accessories-The-Labubu-handbag-charms-Fashion-s-newest-accessory-obsession?source=https://iol-prod.appspot.com/image/dbf96c82cb05030783d48ef5fa81be3dc83cf605/1080&operation=CROP&offset=0x0&resize=1080x1080");
+  background-size: cover;
+}
 .cat-card{
   aspect-ratio:3/4;border-radius:var(--radius-lg);
   overflow:hidden;position:relative;cursor:pointer;
