@@ -1,18 +1,18 @@
 
 // ── PRODUCT DATA ──
 const products = [
-  {id:1,name:"Merino Wool Coat",category:"clothing",price:289,oldPrice:null,emoji:"🧥",rating:4.8,reviews:124,badge:"new",colors:["#1a1714","#8a7660","#f0ebe2"],sizes:["XS","S","M","L","XL"],desc:"Luxuriously soft merino wool in a tailored silhouette. Fully lined with a timeless lapel collar."},
-  {id:2,name:"Leather Tote Bag",category:"accessories",price:195,oldPrice:240,emoji:"👜",rating:4.9,reviews:88,badge:"sale",colors:["#8a6040","#1a1714","#c4bdb2"],sizes:["One Size"],desc:"Full-grain vegetable-tanned leather that develops a beautiful patina with age."},
-  {id:3,name:"Linen Shirt Dress",category:"clothing",price:149,oldPrice:null,emoji:"👗",rating:4.6,reviews:63,badge:null,colors:["#f0ebe2","#d4c8b5","#9a9186"],sizes:["XS","S","M","L","XL","XXL"],desc:"Breathable 100% linen with mother-of-pearl buttons. Easy, effortless summer dressing."},
-  {id:4,name:"Ceramic Mug Set",category:"home",price:68,oldPrice:null,emoji:"☕",rating:4.7,reviews:201,badge:"hot",colors:["#f0ebe2","#1a1714","#b8955a"],sizes:["Set of 2","Set of 4"],desc:"Hand-thrown stoneware glazed in matte earth tones. Dishwasher safe, oven safe."},
-  {id:5,name:"Cashmere Scarf",category:"accessories",price:124,oldPrice:155,emoji:"🧣",rating:4.9,reviews:47,badge:"sale",colors:["#b8955a","#8a9690","#1a1714"],sizes:["One Size"],desc:"Pure Grade-A cashmere, softer with every wash. 180cm × 60cm."},
-  {id:6,name:"Rosehip Face Oil",category:"beauty",price:58,oldPrice:null,emoji:"🌹",rating:4.8,reviews:312,badge:"new",colors:["#e8d0d8"],sizes:["30ml","50ml"],desc:"Cold-pressed organic rosehip seed oil. Brightens, plumps, and restores overnight."},
-  {id:7,name:"Wide-Leg Trousers",category:"clothing",price:178,oldPrice:null,emoji:"👖",rating:4.5,reviews:94,badge:null,colors:["#1a1714","#f0ebe2","#4a453f"],sizes:["XS","S","M","L","XL"],desc:"Fluid crepe fabric with a high waist and wide silhouette. Side zip fastening."},
-  {id:8,name:"Beeswax Candle",category:"home",price:42,oldPrice:null,emoji:"🕯️",rating:4.6,reviews:156,badge:null,colors:["#d4b07a","#f0ebe2"],sizes:["Small","Large"],desc:"Pure beeswax with notes of cedarwood and bergamot. 55-hour burn time."},
-  {id:9,name:"Silk Pillowcase",category:"home",price:89,oldPrice:110,emoji:"🛏️",rating:4.7,reviews:78,badge:"sale",colors:["#f0ebe2","#1a1714","#8a6040"],sizes:["Standard","King"],desc:"22-momme mulberry silk. Gentle on hair and skin, naturally temperature-regulating."},
-  {id:10,name:"Leather Belt",category:"accessories",price:85,oldPrice:null,emoji:"🪢",rating:4.5,reviews:41,badge:null,colors:["#8a6040","#1a1714"],sizes:["S","M","L","XL"],desc:"Full-grain belt with a brushed brass buckle. Hand-stitched edges."},
-  {id:11,name:"Vitamin C Serum",category:"beauty",price:72,oldPrice:90,emoji:"✨",rating:4.8,reviews:228,badge:"sale",colors:["#d4c8b5"],sizes:["15ml","30ml"],desc:"15% vitamin C with hyaluronic acid. Brightens, evens, and protects."},
-  {id:12,name:"Knit Sweater",category:"clothing",price:168,oldPrice:null,emoji:"🧶",rating:4.6,reviews:85,badge:"new",colors:["#b8955a","#f0ebe2","#8a9690"],sizes:["XS","S","M","L","XL"],desc:"Relaxed-fit lambswool knit with ribbed cuffs and hem. Machine washable."},
+  {id:1,name:"Merino Wool Coat",category:"clothing",price:289,oldPrice:null,Image:"https://thefoschini.vtexassets.com/arquivos/ids/224343992-300-400/2a06fb59-8f70-4217-8de9-992448468e70.png?v=639075968030630000",rating:4.8,reviews:124,badge:"new",colors:["#1a1714","#8a7660","#f0ebe2"],sizes:["XS","S","M","L","XL"],desc:"Luxuriously soft merino wool in a tailored silhouette. Fully lined with a timeless lapel collar."},
+  {id:2,name:"Leather Tote Bag",category:"accessories",price:195,oldPrice:240,Image:"https://static.vecteezy.com/system/resources/thumbnails/053/775/328/small/the-black-leather-tote-bag-is-shown-on-a-black-background-png.png",rating:4.9,reviews:88,badge:"sale",colors:["#8a6040","#1a1714","#c4bdb2"],sizes:["One Size"],desc:"Full-grain vegetable-tanned leather that develops a beautiful patina with age."},
+  {id:3,name:"Linen Shirt Dress",category:"clothing",price:149,oldPrice:null,Image:"https://whitecompany.scene7.com/is/image/whitecompany/Linen-Shirt-Dress/A15594_SU25_36_P_4?$M_P_PDP$",rating:4.6,reviews:63,badge:null,colors:["#f0ebe2","#d4c8b5","#9a9186"],sizes:["XS","S","M","L","XL","XXL"],desc:"Breathable 100% linen with mother-of-pearl buttons. Easy, effortless summer dressing."},
+  {id:4,name:"Ceramic Mug Set",category:"home",price:68,oldPrice:null,Image:"https://png.pngtree.com/png-vector/20240509/ourmid/pngtree-the-essential-guide-to-choosing-perfect-coffee-mug-set-png-image_12431803.png",rating:4.7,reviews:201,badge:"hot",colors:["#f0ebe2","#1a1714","#b8955a"],sizes:["Set of 2","Set of 4"],desc:"Hand-thrown stoneware glazed in matte earth tones. Dishwasher safe, oven safe."},
+  {id:5,name:"Cashmere Scarf",category:"accessories",price:124,oldPrice:155,Image:"https://png.pngtree.com/png-vector/20240813/ourmid/pngtree-elegant-tan-scarf-with-fringed-ends-for-timeless-style-png-image_13466479.png",rating:4.9,reviews:47,badge:"sale",colors:["#b8955a","#8a9690","#1a1714"],sizes:["One Size"],desc:"Pure Grade-A cashmere, softer with every wash. 180cm × 60cm."},
+  {id:6,name:"Beauty Accessories",category:"beauty",price:58,oldPrice:null,Image:"https://png.pngtree.com/png-vector/20240818/ourmid/pngtree-geset-of-luxury-beauty-cosmetic-makeup-bdifferent-png-image_13532167.png",rating:4.8,reviews:312,badge:"new",colors:["#e8d0d8"],sizes:["30ml","50ml"],desc:"Cold-pressed organic rosehip seed oil. Brightens, plumps, and restores overnight."},
+  {id:7,name:"Wide-Leg Trousers",category:"clothing",price:178,oldPrice:null,Image:"https://png.pngtree.com/png-vector/20250705/ourmid/pngtree-olive-green-wide-leg-pants-png-image_16607690.webp",rating:4.5,reviews:94,badge:null,colors:["#1a1714","#f0ebe2","#4a453f"],sizes:["XS","S","M","L","XL"],desc:"Fluid crepe fabric with a high waist and wide silhouette. Side zip fastening."},
+  {id:8,name:"Beeswax Candle",category:"home",price:42,oldPrice:null,Image:"https://static.vecteezy.com/system/resources/thumbnails/068/846/914/small/caramel-colored-beeswax-candle-with-wick-png.png",rating:4.6,reviews:156,badge:null,colors:["#d4b07a","#f0ebe2"],sizes:["Small","Large"],desc:"Pure beeswax with notes of cedarwood and bergamot. 55-hour burn time."},
+  {id:9,name:"Silk Pillowcase",category:"home",price:89,oldPrice:110,Image:"https://png.pngtree.com/png-vector/20240812/ourmid/pngtree-multicolored-decorative-pillowcase-png-image_13461971.png",rating:4.7,reviews:78,badge:"sale",colors:["#f0ebe2","#1a1714","#8a6040"],sizes:["Standard","King"],desc:"22-momme mulberry silk. Gentle on hair and skin, naturally temperature-regulating."},
+  {id:10,name:"Leather Belt",category:"accessories",price:85,oldPrice:null,Image:"https://png.pngtree.com/png-vector/20250530/ourmid/pngtree-classic-leather-belt-png-image_16420292.png",rating:4.5,reviews:41,badge:null,colors:["#8a6040","#1a1714"],sizes:["S","M","L","XL"],desc:"Full-grain belt with a brushed brass buckle. Hand-stitched edges."},
+  {id:11,name:"Vitamin C Serum",category:"beauty",price:72,oldPrice:90,Image:"https://png.pngtree.com/png-clipart/20250511/original/pngtree-luxury-vitamin-c-serum-in-golden-dropper-bottle-png-image_20800759.png",rating:4.8,reviews:228,badge:"sale",colors:["#d4c8b5"],sizes:["15ml","30ml"],desc:"15% vitamin C with hyaluronic acid. Brightens, evens, and protects."},
+  {id:12,name:"Knit Sweater",category:"clothing",price:168,oldPrice:null,Image:"https://static.vecteezy.com/system/resources/previews/054/788/451/non_2x/cream-cable-knit-sweater-with-colorful-striped-sleeves-on-transparent-background-png.png",rating:4.6,reviews:85,badge:"new",colors:["#b8955a","#f0ebe2","#8a9690"],sizes:["XS","S","M","L","XL"],desc:"Relaxed-fit lambswool knit with ribbed cuffs and hem. Machine washable."},
 ];
 
 let cart = [];
@@ -35,7 +35,7 @@ function renderProducts(list){
   grid.innerHTML = list.map((p,i) => `
     <div class="product-card" style="animation-delay:${i*0.06}s" data-id="${p.id}">
       <div class="product-img-wrap" onclick="openModal(${p.id})">
-        <div class="product-img-bg">${p.emoji}</div>
+        <div class="product-img-bg"><img src="${p.Image}" alt="${p.name}"></div>
         ${p.badge ? `<span class="product-badge badge-${p.badge}">${p.badge}</span>` : ''}
         <div class="product-actions">
           <button class="p-action-btn ${wishlist.has(p.id)?'wishlisted':''}" onclick="event.stopPropagation();toggleWishlist(${p.id},this)" title="Wishlist">
@@ -135,7 +135,7 @@ function updateCart(){
   } else {
     itemsEl.innerHTML = cart.map(item => `
       <div class="cart-item">
-        <div class="cart-item-img">${item.emoji}</div>
+        <div class="cart-item-img">${item.Image}</div>
         <div>
           <div class="cart-item-name">${item.name}</div>
           <div class="cart-item-variant">Size: ${item.selectedSize}</div>
@@ -180,7 +180,7 @@ function openModal(id){
   const p = products.find(x => x.id === id);
   document.getElementById('modalImg').innerHTML = `
     <button class="modal-close" onclick="closeModalDirect()">✕</button>
-    <div style="font-size:10rem;">${p.emoji}</div>
+    <div style="font-size:10rem;">${p.Image}</div>
     ${p.badge ? `<span class="product-badge badge-${p.badge}" style="position:absolute;top:1rem;left:1rem;">${p.badge}</span>` : ''}
   `;
   document.getElementById('modalContent').innerHTML = `
